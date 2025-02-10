@@ -7,7 +7,8 @@ const express = require('express'); //name of the express module can be used to 
 var cors = require('cors')
 //activate or tell this app variable to be an express server
 const app = express(); //an activated express server. can you the express app functionality
-app.use(cors())
+app.use(cors({ origin: '*'}))
+app.use(express.json());
 const router = express.Router();
 
 router.get('/songs', function(req, res){
