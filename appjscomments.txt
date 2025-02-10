@@ -1,0 +1,31 @@
+A: 
+
+B:
+routes are used to handle browers request. They look like urls. The difference is that when a browser requests a route, it is dynamically handled by using a function...api request ties a request to a function?  
+
+when using a function in a route, we almost always have a parameter or handle a response and request
+
+the point of a server is to handle requests
+B1:  can have html in it.  add html
+
+C:
+
+
+
+DELETED code from tutorial:
+//start the web server...app.listen(portnumber, function);
+
+
+app.listen(3000, function(){
+    console.log('listening on port 3000') //a log to make sure the server is running
+})
+
+
+//B: making an api using routes
+//GET or a regular request when someone goes to https://localhost:3000/hello...endpoint of url
+
+//a problem with express by default without nodemon....have to stop server, save file, and restart server
+//can be addressed by installing npm package 'nodemon', run with command: nodemon app.js
+
+
+C: //
